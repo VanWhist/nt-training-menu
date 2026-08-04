@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NTトレーニングメニュー</title>
+<meta name="description" content="ナショナルチームの日々のトレーニングメニューと参考動画を確認するアプリです。">
+<meta name="theme-color" content="#0b3a67">
+<meta name="color-scheme" content="light">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="NTメニュー">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
+<link rel="stylesheet" href="./styles.css">
+<script src="./app.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">本文へ移動</a>
+
+<header class="app-header">
+  <div class="app-header__inner">
+    <div class="app-header__titles">
+      <p class="app-header__eyebrow">ナショナルチーム</p>
+      <h1 class="app-header__title">トレーニングメニュー</h1>
+    </div>
+    <div class="app-header__status">
+      <span class="net-badge net-badge--online" id="net-badge" role="status">
+        <span class="net-badge__dot" aria-hidden="true"></span><span id="net-badge-text">オンライン</span>
+      </span>
+      <p class="app-header__updated" id="data-updated">データ更新：読み込み中…</p>
+    </div>
+  </div>
+</header>
+
+<div id="notice-area" class="notice-area" aria-live="polite"></div>
+
+<main id="main" class="main" tabindex="-1">
+
+  <!-- ホーム（一覧） -->
+  <section id="view-home" class="view" aria-label="練習日の一覧">
+    <div class="search-block">
+      <div class="search-field">
+        <label class="search-field__label" for="search-input">種目名で検索</label>
+        <div class="search-field__row">
+          <input
+            id="search-input"
+            class="search-field__input"
+            type="search"
+            inputmode="search"
+            enterkeyhint="search"
+            autocomplete="off"
+            autocorrect="off"
+            autocapitalize="off"
+            spellcheck="false"
+            placeholder="例：クラムシェル / 紐飛び / SL">
+          <button type="button" id="search-clear" class="search-field__clear" hidden>消す</button>
+        </div>
+      </div>
+
+      <div class="chips" role="group" aria-label="カテゴリで絞り込み">
+        <button type="button" class="chip is-active" data-category="all" aria-pressed="true">すべて</button>
+        <button type="button" class="chip" data-category="アジプラ" aria-pressed="false">アジプラ</button>
+        <button type="button" class="chip" data-category="コア" aria-pressed="false">コア</button>
+      </div>
+    </div>
+
+    <div id="home-body" class="home-body">
+      <p class="loading-note">メニューを読み込んでいます…</p>
+    </div>
+  </section>
+
+  <!-- 練習詳細 -->
+  <section id="view-detail" class="view" aria-label="練習の詳細" hidden></section>
+
+</main>
+
+<footer class="app-footer">
+  <p>動画にはテロップが入っているため、<strong>音声なしでも</strong>種目を確認できます。</p>
+  <p class="app-footer__small">メニュー表・検索はオフラインでも使えます。動画の再生には通信が必要です。</p>
+</footer>
+
+<noscript>
+  <p style="padding:16px;font-size:16px;">
+    このアプリを使うにはJavaScriptを有効にしてください。
+  </p>
+</noscript>
+
+</body>
+</html>
