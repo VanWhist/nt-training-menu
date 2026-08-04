@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-04T21:30:00+09:00",
+  "updatedAt": "2026-08-05T22:00:00+09:00",
   "sessions": [
     {
       "id": "2026-08-03-agipla",
@@ -8,7 +8,7 @@
       "title": "2026.8.3 アジプラTR",
       "category": "アジプラ",
       "youtubeId": "",
-      "duration": 85,
+      "duration": 85.82,
       "exercises": [
         {
           "id": "2026-08-03-agipla-01",
@@ -18,7 +18,7 @@
           "detail": "PP/ハーキー/クイックツイスト/タックJ",
           "prescription": "各5回×1",
           "aliases": [],
-          "start": null,
+          "start": 2.5,
           "end": null,
           "notes": ""
         },
@@ -30,7 +30,7 @@
           "detail": "",
           "prescription": "30回（内10/中10/外10）×2",
           "aliases": [],
-          "start": null,
+          "start": 20.4,
           "end": null,
           "notes": ""
         },
@@ -42,7 +42,7 @@
           "detail": "",
           "prescription": "前10後10を2往復×2",
           "aliases": [],
-          "start": null,
+          "start": 37.9,
           "end": null,
           "notes": ""
         },
@@ -54,7 +54,7 @@
           "detail": "",
           "prescription": "20回（N10/UN10）×2",
           "aliases": [],
-          "start": null,
+          "start": 54.1,
           "end": null,
           "notes": ""
         },
@@ -66,7 +66,7 @@
           "detail": "PP/パラレルSQ",
           "prescription": "8回×4種類テンポ",
           "aliases": [],
-          "start": null,
+          "start": 63.2,
           "end": null,
           "notes": ""
         }
@@ -78,7 +78,7 @@
       "title": "2026.8.2 コアTR",
       "category": "コア",
       "youtubeId": "",
-      "duration": 85,
+      "duration": 99.55,
       "exercises": [
         {
           "id": "2026-08-02-core-01",
@@ -88,7 +88,7 @@
           "detail": "",
           "prescription": "E15回×1",
           "aliases": [],
-          "start": null,
+          "start": 2.4,
           "end": null,
           "notes": ""
         },
@@ -100,7 +100,7 @@
           "detail": "",
           "prescription": "PP/直立 10サイクルずつ",
           "aliases": [],
-          "start": null,
+          "start": 6.1,
           "end": null,
           "notes": ""
         },
@@ -112,7 +112,7 @@
           "detail": "",
           "prescription": "E10サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 14.4,
           "end": null,
           "notes": ""
         },
@@ -124,7 +124,7 @@
           "detail": "",
           "prescription": "10サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 19.1,
           "end": null,
           "notes": ""
         },
@@ -136,7 +136,7 @@
           "detail": "",
           "prescription": "E3往復×1",
           "aliases": [],
-          "start": null,
+          "start": 25.3,
           "end": null,
           "notes": ""
         },
@@ -148,7 +148,7 @@
           "detail": "",
           "prescription": "3/3/3回 E3周×1",
           "aliases": [],
-          "start": null,
+          "start": 43,
           "end": null,
           "notes": ""
         },
@@ -160,7 +160,7 @@
           "detail": "",
           "prescription": "E6サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 52.8,
           "end": null,
           "notes": ""
         },
@@ -172,7 +172,7 @@
           "detail": "",
           "prescription": "E5回×2",
           "aliases": [],
-          "start": null,
+          "start": 62.6,
           "end": null,
           "notes": ""
         },
@@ -184,7 +184,7 @@
           "detail": "",
           "prescription": "E5回×2",
           "aliases": [],
-          "start": null,
+          "start": 78.6,
           "end": null,
           "notes": ""
         },
@@ -196,7 +196,7 @@
           "detail": "",
           "prescription": "（記載なし）",
           "aliases": [],
-          "start": null,
+          "start": 89.4,
           "end": null,
           "notes": ""
         }
@@ -208,7 +208,7 @@
       "title": "2026.7.4 アジプラTR",
       "category": "アジプラ",
       "youtubeId": "",
-      "duration": 85,
+      "duration": 130.43,
       "exercises": [
         {
           "id": "2026-07-04-agipla-01",
@@ -218,7 +218,7 @@
           "detail": "",
           "prescription": "E10×1",
           "aliases": [],
-          "start": null,
+          "start": 2.5,
           "end": null,
           "notes": ""
         },
@@ -230,7 +230,7 @@
           "detail": "",
           "prescription": "E10×1",
           "aliases": [],
-          "start": null,
+          "start": 6,
           "end": null,
           "notes": ""
         },
@@ -242,7 +242,7 @@
           "detail": "",
           "prescription": "20回×1",
           "aliases": [],
-          "start": null,
+          "start": 9.1,
           "end": null,
           "notes": ""
         },
@@ -254,7 +254,7 @@
           "detail": "",
           "prescription": "E10×1",
           "aliases": [],
-          "start": null,
+          "start": 15,
           "end": null,
           "notes": ""
         },
@@ -266,7 +266,7 @@
           "detail": "",
           "prescription": "左右それぞれ連続 E10×1",
           "aliases": [],
-          "start": null,
+          "start": 19.4,
           "end": null,
           "notes": ""
         },
@@ -278,7 +278,7 @@
           "detail": "両脚/後脚/前脚",
           "prescription": "左右それぞれ ALL1本",
           "aliases": [],
-          "start": null,
+          "start": 26.9,
           "end": null,
           "notes": ""
         },
@@ -290,7 +290,7 @@
           "detail": "",
           "prescription": "20/10/10×1",
           "aliases": [],
-          "start": null,
+          "start": 39.7,
           "end": null,
           "notes": ""
         },
@@ -302,7 +302,7 @@
           "detail": "紐：膝の高さ",
           "prescription": "20回×2",
           "aliases": [],
-          "start": null,
+          "start": 49.8,
           "end": null,
           "notes": ""
         },
@@ -314,7 +314,7 @@
           "detail": "",
           "prescription": "20秒×2",
           "aliases": [],
-          "start": null,
+          "start": 56.9,
           "end": null,
           "notes": ""
         },
@@ -326,7 +326,7 @@
           "detail": "",
           "prescription": "20秒×2",
           "aliases": [],
-          "start": null,
+          "start": 90.7,
           "end": null,
           "notes": ""
         }
@@ -338,7 +338,7 @@
       "title": "2026.7.3 コアTR",
       "category": "コア",
       "youtubeId": "",
-      "duration": 85,
+      "duration": 122.43,
       "exercises": [
         {
           "id": "2026-07-03-core-01",
@@ -348,7 +348,7 @@
           "detail": "",
           "prescription": "ALL 10回×1",
           "aliases": [],
-          "start": null,
+          "start": 2.5,
           "end": null,
           "notes": ""
         },
@@ -360,7 +360,7 @@
           "detail": "",
           "prescription": "ALL 10回×1",
           "aliases": [],
-          "start": null,
+          "start": 11.2,
           "end": null,
           "notes": ""
         },
@@ -372,7 +372,7 @@
           "detail": "",
           "prescription": "ALL 10回×1",
           "aliases": [],
-          "start": null,
+          "start": 20.1,
           "end": null,
           "notes": ""
         },
@@ -384,7 +384,7 @@
           "detail": "",
           "prescription": "E50回×1",
           "aliases": [],
-          "start": null,
+          "start": 27.1,
           "end": null,
           "notes": ""
         },
@@ -396,7 +396,7 @@
           "detail": "",
           "prescription": "E10回×1",
           "aliases": [],
-          "start": null,
+          "start": 32.2,
           "end": null,
           "notes": ""
         },
@@ -408,7 +408,7 @@
           "detail": "",
           "prescription": "E10回×1",
           "aliases": [],
-          "start": null,
+          "start": 38.4,
           "end": null,
           "notes": ""
         },
@@ -420,7 +420,7 @@
           "detail": "キープ",
           "prescription": "E15秒キープ×2",
           "aliases": [],
-          "start": null,
+          "start": 45.6,
           "end": null,
           "notes": ""
         },
@@ -432,7 +432,7 @@
           "detail": "動",
           "prescription": "E3往復×2",
           "aliases": [],
-          "start": null,
+          "start": 52,
           "end": null,
           "notes": ""
         },
@@ -444,7 +444,7 @@
           "detail": "",
           "prescription": "E3往復×1",
           "aliases": [],
-          "start": null,
+          "start": 69.3,
           "end": null,
           "notes": ""
         },
@@ -456,7 +456,7 @@
           "detail": "",
           "prescription": "E3往復×1",
           "aliases": [],
-          "start": null,
+          "start": 83,
           "end": null,
           "notes": ""
         },
@@ -468,7 +468,7 @@
           "detail": "",
           "prescription": "E20回×1",
           "aliases": [],
-          "start": null,
+          "start": 93.5,
           "end": null,
           "notes": ""
         },
@@ -480,7 +480,7 @@
           "detail": "",
           "prescription": "20サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 98.2,
           "end": null,
           "notes": ""
         },
@@ -492,7 +492,7 @@
           "detail": "",
           "prescription": "E10サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 103.6,
           "end": null,
           "notes": ""
         },
@@ -504,7 +504,7 @@
           "detail": "",
           "prescription": "8カウント10サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 108.3,
           "end": null,
           "notes": ""
         },
@@ -516,7 +516,7 @@
           "detail": "",
           "prescription": "10本×1",
           "aliases": [],
-          "start": null,
+          "start": 116.1,
           "end": null,
           "notes": ""
         }
@@ -528,7 +528,7 @@
       "title": "2026.6.30 アジプラTR",
       "category": "アジプラ",
       "youtubeId": "",
-      "duration": 85,
+      "duration": 99.72,
       "exercises": [
         {
           "id": "2026-06-30-agipla-01",
@@ -538,7 +538,7 @@
           "detail": "",
           "prescription": "30秒×1",
           "aliases": [],
-          "start": null,
+          "start": 2.5,
           "end": null,
           "notes": ""
         },
@@ -550,7 +550,7 @@
           "detail": "",
           "prescription": "30秒×1",
           "aliases": [],
-          "start": null,
+          "start": 4.9,
           "end": null,
           "notes": ""
         },
@@ -562,7 +562,7 @@
           "detail": "",
           "prescription": "30秒×1",
           "aliases": [],
-          "start": null,
+          "start": 7.8,
           "end": null,
           "notes": ""
         },
@@ -574,7 +574,7 @@
           "detail": "",
           "prescription": "30秒×1",
           "aliases": [],
-          "start": null,
+          "start": 10.5,
           "end": null,
           "notes": ""
         },
@@ -586,7 +586,7 @@
           "detail": "",
           "prescription": "20/20×1",
           "aliases": [],
-          "start": null,
+          "start": 12.3,
           "end": null,
           "notes": ""
         },
@@ -598,7 +598,7 @@
           "detail": "",
           "prescription": "10サイクル×2",
           "aliases": [],
-          "start": null,
+          "start": 19.7,
           "end": null,
           "notes": ""
         },
@@ -610,7 +610,7 @@
           "detail": "",
           "prescription": "10サイクル×2",
           "aliases": [],
-          "start": null,
+          "start": 28.9,
           "end": null,
           "notes": ""
         },
@@ -622,7 +622,7 @@
           "detail": "一直線",
           "prescription": "5サイクル×2",
           "aliases": [],
-          "start": null,
+          "start": 38.3,
           "end": null,
           "notes": ""
         },
@@ -634,7 +634,7 @@
           "detail": "",
           "prescription": "5周×2",
           "aliases": [],
-          "start": null,
+          "start": 51.2,
           "end": null,
           "notes": ""
         },
@@ -646,7 +646,7 @@
           "detail": "サイドステップ/前後ステップ/バックホップ",
           "prescription": "全て1サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 56.6,
           "end": null,
           "notes": ""
         }
@@ -658,7 +658,7 @@
       "title": "2026.6.29 コアTR",
       "category": "コア",
       "youtubeId": "",
-      "duration": 85,
+      "duration": 111.51,
       "exercises": [
         {
           "id": "2026-06-29-core-01",
@@ -668,7 +668,7 @@
           "detail": "",
           "prescription": "ALL 3秒キープ E10回×1",
           "aliases": [],
-          "start": null,
+          "start": 2.5,
           "end": null,
           "notes": ""
         },
@@ -680,7 +680,7 @@
           "detail": "ノーマル/股関節90°",
           "prescription": "ALL 3秒キープ E10回×1",
           "aliases": [],
-          "start": null,
+          "start": 10.1,
           "end": null,
           "notes": ""
         },
@@ -692,7 +692,7 @@
           "detail": "ノーマル/股関節90°",
           "prescription": "ALL 3秒キープ E10回×1",
           "aliases": [],
-          "start": null,
+          "start": 23.1,
           "end": null,
           "notes": ""
         },
@@ -704,7 +704,7 @@
           "detail": "",
           "prescription": "ALL 3秒キープ E10回×1",
           "aliases": [],
-          "start": null,
+          "start": 34.2,
           "end": null,
           "notes": ""
         },
@@ -716,7 +716,7 @@
           "detail": "腰幅膝90&膝30/ワイド幅膝90&膝30",
           "prescription": "ALL 45秒×1",
           "aliases": [],
-          "start": null,
+          "start": 42.5,
           "end": null,
           "notes": ""
         },
@@ -728,7 +728,7 @@
           "detail": "上げ3秒/キープ3秒/下げ3秒",
           "prescription": "E10サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 56.1,
           "end": null,
           "notes": ""
         },
@@ -740,7 +740,7 @@
           "detail": "5回&5秒キープ",
           "prescription": "E10サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 67.4,
           "end": null,
           "notes": ""
         },
@@ -752,7 +752,7 @@
           "detail": "膝&シューズ",
           "prescription": "10サイクル×2",
           "aliases": [],
-          "start": null,
+          "start": 77.2,
           "end": null,
           "notes": ""
         },
@@ -764,7 +764,7 @@
           "detail": "膝&シューズ",
           "prescription": "15回×1",
           "aliases": [],
-          "start": null,
+          "start": 87.1,
           "end": null,
           "notes": ""
         },
@@ -776,7 +776,7 @@
           "detail": "",
           "prescription": "15サイクル×1",
           "aliases": [],
-          "start": null,
+          "start": 98.6,
           "end": null,
           "notes": ""
         }
