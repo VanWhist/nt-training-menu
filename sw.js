@@ -11,7 +11,7 @@
  * ========================================================================= */
 'use strict';
 
-var CACHE_VERSION = 'nt-training-v1';
+var CACHE_VERSION = 'nt-training-v2';
 var SHELL_CACHE = CACHE_VERSION + '-shell';
 var DATA_CACHE  = CACHE_VERSION + '-data';
 

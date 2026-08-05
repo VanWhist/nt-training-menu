@@ -451,6 +451,7 @@
     sessionId: null,
     creating: false,
     pending: null,          // {sessionId, start, exerciseId} 最後に選ばれたものが勝つ
+    soundOn: false,         // 既定はミュート（自動再生をブラウザに許可させるため）
     lastRequestedStart: null,
     durationChecked: false,
     autoplayTimer: null
@@ -520,6 +521,7 @@
 
     var mount = $('player-mount');
     if (mount && mount.parentNode) mount.parentNode.removeChild(mount);
+    updateSoundButton();
   }
 
   function currentSession() {
@@ -577,6 +579,28 @@
     if (area) area.classList.add('is-expanded');
     var actions = $('video-actions');
     if (actions) actions.hidden = false;
+    updateSoundButton();
+  }
+
+  /** ミュート切り替えボタンの表示を、いまの状態に合わせる */
+  function updateSoundButton() {
+    var btn = $('sound-toggle');
+    if (!btn) return;
+    btn.hidden = !yt.player;
+    btn.textContent = yt.soundOn ? '🔊 音を消す' : '🔇 音を出す';
+    btn.setAttribute('aria-pressed', yt.soundOn ? 'true' : 'false');
+  }
+
+  function toggleSound() {
+    if (!yt.player) return;
+    yt.soundOn = !yt.soundOn;
+    try {
+      if (yt.soundOn) { yt.player.unMute(); yt.player.setVolume(100); }
+      else { yt.player.mute(); }
+    } catch (e) {
+      console.warn('音量を切り替えられませんでした。', e);
+    }
+    updateSoundButton();
   }
 
   function collapseVideo() {
@@ -699,11 +723,15 @@
     setSelectedExercise(p.exerciseId);
 
     try {
+      // 音ありの自動再生はブラウザに拒否されるため、既定はミュートで始める。
+      // 動画にはテロップが焼き込まれているので、音がなくても種目は分かる。
+      if (!yt.soundOn) yt.player.mute();
       yt.player.seekTo(t, true);
       yt.player.playVideo();
     } catch (e) {
       console.warn('再生位置の指定に失敗しました。', e);
     }
+    updateSoundButton();
 
     scheduleAutoplayCheck();
     scrollVideoIntoView();
@@ -1059,6 +1087,11 @@
     var area = el('div', { id: 'video-area', class: 'video-area' }, [
       el('div', { id: 'video-frame', class: 'video-frame' }, frameChildren),
       el('div', { id: 'video-actions', class: 'video-actions', hidden: true }, [
+        el('button', {
+          type: 'button', id: 'sound-toggle', class: 'video-actions__btn',
+          hidden: true, 'aria-pressed': 'false', text: '🔇 音を出す',
+          onclick: function () { toggleSound(); }
+        }),
         el('button', {
           type: 'button', class: 'video-actions__btn', text: '動画を閉じる',
           onclick: function () { collapseVideo(); }
