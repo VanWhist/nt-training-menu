@@ -1,7 +1,265 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-08-05T23:30:00+09:00",
+  "updatedAt": "2026-10-01T21:31:00+09:00",
   "sessions": [
+    {
+      "id": "2026-09-27-core",
+      "date": "2026-09-27",
+      "title": "2026.9.27 コアTR",
+      "category": "コア",
+      "youtubeId": "g2jb-_e7OyI",
+      "duration": 100.6,
+      "exercises": [
+        {
+          "id": "2026-09-27-core-01",
+          "no": 1,
+          "group": "コアヒップ",
+          "name": "ベアウォーク フロント/バック",
+          "detail": "",
+          "prescription": "",
+          "aliases": [],
+          "start": 2.6,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-27-core-02",
+          "no": 2,
+          "group": "コアヒップ",
+          "name": "MBオルタネイトパス ベアウォーク フロント/バック",
+          "detail": "",
+          "prescription": "",
+          "aliases": [],
+          "start": 11.4,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-27-core-03",
+          "no": 3,
+          "group": "コアヒップ",
+          "name": "ベアposi MBツイスト",
+          "detail": "",
+          "prescription": "E10回×2セット",
+          "aliases": [],
+          "start": 24.3,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-27-core-04",
+          "no": 4,
+          "group": "コアヒップ",
+          "name": "ターキッシュGU 高重量",
+          "detail": "",
+          "prescription": "E2往復",
+          "aliases": [],
+          "start": 34.1,
+          "end": null,
+          "notes": "動画は1.5倍速"
+        },
+        {
+          "id": "2026-09-27-core-05",
+          "no": 5,
+          "group": "コアヒップ",
+          "name": "SLRDL+ツイストチューブ",
+          "detail": "",
+          "prescription": "E10回",
+          "aliases": [],
+          "start": 59.4,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-27-core-06",
+          "no": 6,
+          "group": "コアヒップ",
+          "name": "ウォールクラムシェル3種",
+          "detail": "",
+          "prescription": "5/5/5回",
+          "aliases": [],
+          "start": 70.3,
+          "end": null,
+          "notes": "動画は2倍速"
+        },
+        {
+          "id": "2026-09-27-core-07",
+          "no": 7,
+          "group": "本日の〆",
+          "name": "1→10ホップ×ランディング3種類",
+          "detail": "",
+          "prescription": "",
+          "aliases": [],
+          "start": 88.6,
+          "end": null,
+          "notes": "動画は2.5倍速"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-24-agipla",
+      "date": "2026-09-24",
+      "title": "2026.9.24 アジプラTR",
+      "category": "アジプラ",
+      "youtubeId": "I59mPyEyQ3U",
+      "duration": 78.49,
+      "exercises": [
+        {
+          "id": "2026-09-24-agipla-01",
+          "no": 1,
+          "group": "アジリティ&プライオ",
+          "name": "ミラードリル",
+          "detail": "",
+          "prescription": "20〜30秒",
+          "aliases": [],
+          "start": 2.5,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-24-agipla-02",
+          "no": 2,
+          "group": "アジリティ&プライオ",
+          "name": "反応ボールキャッチ",
+          "detail": "サイド",
+          "prescription": "20〜30秒",
+          "aliases": [],
+          "start": 13.4,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-24-agipla-03",
+          "no": 3,
+          "group": "アジリティ&プライオ",
+          "name": "距離変ラテラルホップ",
+          "detail": "",
+          "prescription": "10サイクル",
+          "aliases": [],
+          "start": 26.0,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-24-agipla-04",
+          "no": 4,
+          "group": "アジリティ&プライオ",
+          "name": "距離変ラテラルホップ",
+          "detail": "サイド+前後",
+          "prescription": "5サイクル",
+          "aliases": [],
+          "start": 34.8,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-24-agipla-05",
+          "no": 5,
+          "group": "アジリティ&プライオ",
+          "name": "もも上げ/バーピー/タックJ→目瞑り360J",
+          "detail": "",
+          "prescription": "20秒",
+          "aliases": [],
+          "start": 49.3,
+          "end": null,
+          "notes": "動画は2倍速"
+        },
+        {
+          "id": "2026-09-24-agipla-06",
+          "no": 6,
+          "group": "本日の〆",
+          "name": "ディープホップ/バックランジJ",
+          "detail": "",
+          "prescription": "15回 2セット",
+          "aliases": [],
+          "start": 68.1,
+          "end": null,
+          "notes": "動画は1.5倍速"
+        }
+      ]
+    },
+    {
+      "id": "2026-09-23-core",
+      "date": "2026-09-23",
+      "title": "2026.9.23 コアTR",
+      "category": "コア",
+      "youtubeId": "3DZ2zD3Iloc",
+      "duration": 70.57,
+      "exercises": [
+        {
+          "id": "2026-09-23-core-01",
+          "no": 1,
+          "group": "コアヒップ",
+          "name": "SLRDLロウ&SLPPロウ",
+          "detail": "",
+          "prescription": "E10サイクル",
+          "aliases": [],
+          "start": 2.5,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-23-core-02",
+          "no": 2,
+          "group": "コアヒップ",
+          "name": "SQJ+ダブル/オルタネイトロウ",
+          "detail": "",
+          "prescription": "10サイクル",
+          "aliases": [],
+          "start": 9.8,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-23-core-03",
+          "no": 3,
+          "group": "コアヒップ",
+          "name": "PP密脚ハーキー+リアクション",
+          "detail": "クイックツイスト&パンチ",
+          "prescription": "30秒",
+          "aliases": [],
+          "start": 16.6,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-23-core-04",
+          "no": 4,
+          "group": "コアヒップ",
+          "name": "SQ + チューブプル&プッシュ",
+          "detail": "",
+          "prescription": "E15回",
+          "aliases": [],
+          "start": 26.4,
+          "end": null,
+          "notes": ""
+        },
+        {
+          "id": "2026-09-23-core-05",
+          "no": 5,
+          "group": "コアヒップ",
+          "name": "バランス ターキッシュGU+腰チューブ",
+          "detail": "",
+          "prescription": "E5往復",
+          "aliases": [],
+          "start": 31.3,
+          "end": null,
+          "notes": "動画は1.5倍速"
+        },
+        {
+          "id": "2026-09-23-core-06",
+          "no": 6,
+          "group": "本日の〆",
+          "name": "1→10ホップ×ランディング3種類",
+          "detail": "",
+          "prescription": "",
+          "aliases": [],
+          "start": 57.6,
+          "end": null,
+          "notes": "動画は2倍速"
+        }
+      ]
+    },
     {
       "id": "2026-08-03-agipla",
       "date": "2026-08-03",
